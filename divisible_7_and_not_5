@@ -1,0 +1,7 @@
+#numbers sopposed to be divisible with 7 but not with 5. And numbers supposed to be between 2000 and 3200. 
+
+l=[];
+for i in (2000, 3201):
+     if (i%7==0) and (i%5!=0):
+         l.append(str(i))
+print ','.join(l)
